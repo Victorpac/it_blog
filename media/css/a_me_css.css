@@ -1,0 +1,32 @@
+.admin_name {
+	font-weight: normal;
+	max-width: 300px;
+	padding: 5px 10px;
+}
+
+.admin_name:focus {
+	font-weight: normal;
+	background: #fff;
+}
+
+.admin_image {
+	max-width: 500px;
+	width: 100%;
+}
+
+.admin_text {
+	margin-top: 50px;
+}
+
+.admin_text .textarea {
+	width: 100%;
+	outline: none;
+	padding: 5px 10px;
+}
+
+.admin_text .textarea:active, .admin_text .textarea:focus {
+	width: 100%;
+	padding: 5px 10px;
+	background-color: #fff; 
+	outline: auto;
+}
